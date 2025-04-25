@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* Main Container */
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-color: #ffffff; /* Changed to White */
+}
+
+    /* Content Box */
+    .container .content {
+        text-align: center;
+    }
+
+        .container .content h3 {
+            font-size: 30px;
+            color: #222; /* Changed to Dark Gray */
+        }
+
+            .container .content h3 span {
+                background: #ddd; /* Light Gray */
+                color: #000;
+                border-radius: 5px;
+                padding: 0 15px;
+            }
+
+        .container .content h1 {
+            font-size: 50px;
+            color: #222;
+        }
+
+            .container .content h1 span {
+                color: #555; /* Medium Gray */
+            }
+
+        .container .content p {
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: #666; /* Light Gray */
+        }
+
+        /* Buttons */
+        .container .content .btn {
+            display: inline-block;
+            padding: 10px 30px;
+            font-size: 20px;
+            background: #444;
+            color: #fff;
+            margin: 0 5px;
+            text-transform: capitalize;
+            transition: background 0.3s ease-in-out;
+        }
+
+            .container .content .btn:hover {
+                background: #222;
+                color: #fff;
+            }
+
+/* Form Container */
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #ffffff; /* Changed to White */
+}
+
+    /* Form */
+    .form-container form {
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        background: #f8f8f8; /* Light Gray Background */
+        text-align: center;
+        width: 500px;
+    }
+
+        /* Form Heading */
+        .form-container form h3 {
+            font-size: 30px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        /* Input Fields */
+        .form-container form input,
+        .form-container form select {
+            width: 100%;
+            padding: 10px 15px;
+            font-size: 17px;
+            margin: 8px 0;
+            background: #fff;
+            color: #222;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+            .form-container form select option {
+                background: #f8f8f8;
+            }
+
+        /* Form Buttons */
+        .form-container form .form-btn {
+            background: #444;
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+
+            .form-container form .form-btn:hover {
+                background: #222;
+                color: #fff;
+            }
+
+        /* Form Links */
+        .form-container form p {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #555;
+        }
+
+            .form-container form p a {
+                color: #007bff; /* Blue for Links */
+                text-decoration: underline;
+            }
+
+        /* Error Message */
+        .form-container form .error-msg {
+            margin: 10px 0;
+            display: block;
+            background: #ffdddd;
+            color: #d9534f;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid #d9534f;
+        }
